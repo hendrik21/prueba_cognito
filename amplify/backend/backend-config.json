@@ -26,5 +26,29 @@
         ]
       }
     }
+  },
+  "geo": {
+    "mapecad91d3": {
+      "isDefault": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Map",
+      "mapStyle": "VectorEsriStreets",
+      "accessType": "AuthorizedUsers",
+      "dependsOn": [
+        {
+          "category": "auth",
+          "resourceName": "pruebacognito62c95d45",
+          "attributes": [
+            "UserPoolId"
+          ]
+        }
+      ]
+    }
+  },
+  "analytics": {
+    "pruebacognito": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }

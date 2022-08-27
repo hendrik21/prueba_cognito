@@ -1,0 +1,21 @@
+{
+    "appName": "pruebacognito",
+    "roleName": "pinpointLambdaRole7b3a8def",
+    "cloudformationPolicyName": "cloudformationPolicy7b3a8def",
+    "cloudWatchPolicyName": "cloudWatchPolicy7b3a8def",
+    "pinpointPolicyName": "pinpointPolicy7b3a8def",
+    "authPolicyName": "pinpoint_amplify_7b3a8def",
+    "unauthPolicyName": "pinpoint_amplify_7b3a8def",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

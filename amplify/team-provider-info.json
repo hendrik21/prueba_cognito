@@ -1,22 +1,4 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-pruebacognito-dev-90140-authRole",
-      "UnauthRoleArn": "arn:aws:iam::913045965320:role/amplify-pruebacognito-dev-90140-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::913045965320:role/amplify-pruebacognito-dev-90140-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-pruebacognito-dev-90140-deployment",
-      "UnauthRoleName": "amplify-pruebacognito-dev-90140-unauthRole",
-      "StackName": "amplify-pruebacognito-dev-90140",
-      "StackId": "arn:aws:cloudformation:us-east-1:913045965320:stack/amplify-pruebacognito-dev-90140/0a579110-db6a-11ec-8e38-0a6a239579c7",
-      "AmplifyAppId": "do8osji0lyszx"
-    },
-    "categories": {
-      "auth": {
-        "pruebacognito62c95d45": {}
-      }
-    }
-  },
   "test": {
     "awscloudformation": {
       "AuthRoleName": "amplify-pruebacognito-test-145958-authRole",
@@ -28,6 +10,25 @@
       "StackName": "amplify-pruebacognito-test-145958",
       "StackId": "arn:aws:cloudformation:us-east-1:913045965320:stack/amplify-pruebacognito-test-145958/17df1600-db9c-11ec-bab1-124195e4d4e3",
       "AmplifyAppId": "d18jvlo498f5dz"
+    },
+    "categories": {
+      "auth": {
+        "pruebacognito62c95d45": {},
+        "true": {}
+      }
+    }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pruebacognito-dev-90140-authRole",
+      "UnauthRoleArn": "arn:aws:iam::913045965320:role/amplify-pruebacognito-dev-90140-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::913045965320:role/amplify-pruebacognito-dev-90140-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-pruebacognito-dev-90140-deployment",
+      "UnauthRoleName": "amplify-pruebacognito-dev-90140-unauthRole",
+      "StackName": "amplify-pruebacognito-dev-90140",
+      "StackId": "arn:aws:cloudformation:us-east-1:913045965320:stack/amplify-pruebacognito-dev-90140/0a579110-db6a-11ec-8e38-0a6a239579c7",
+      "AmplifyAppId": "do8osji0lyszx"
     },
     "categories": {
       "auth": {

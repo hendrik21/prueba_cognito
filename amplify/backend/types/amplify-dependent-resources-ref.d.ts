@@ -9,5 +9,20 @@ export type AmplifyDependentResourcesAttributes = {
             "AppClientIDWeb": "string",
             "AppClientID": "string"
         }
+    },
+    "geo": {
+        "mapecad91d3": {
+            "Name": "string",
+            "Style": "string",
+            "Region": "string",
+            "Arn": "string"
+        }
+    },
+    "analytics": {
+        "pruebacognito": {
+            "Region": "string",
+            "Id": "string",
+            "appName": "string"
+        }
     }
 }
